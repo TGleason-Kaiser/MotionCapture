@@ -5,16 +5,117 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-primary-50: #fff5f2;
-  --color-primary-100: #fff1ee;
-  --color-primary-200: #ffe4de;
-  --color-primary-300: #ffd5cc;
-  --color-primary-400: #ffbcad;
-  --color-primary-500: #fe795d;
-  --color-primary-600: #ef562f;
-  --color-primary-700: #eb4f27;
-  --color-primary-800: #cc4522;
-  --color-primary-900: #a5371b;
+    /* Latte */
+    --color-rosewater-50:#dc8a78;
+    --color-flamingo-50:#dd7878;
+    --color-pink-50:#ea76cb;
+    --color-mauve-50:#8839ef;
+    --color-red-50:#d20f39;
+    --color-maroon-50:#e64553;
+    --color-peach-50:#fe640b;
+    --color-yellow-50:#df8e1d;
+    --color-green-50:#40a02b;
+    --color-teal-50:#179299;
+    --color-sky-50:#04a5e5;
+    --color-sapphire-50:#209fb5;
+    --color-blue-50:#1e66f5;
+    --color-lavender-50:#7287fd;
+    --color-text-50:#4c4f69;
+    --color-subtext1-50:#5c5f77;
+    --color-subtext0-50:#6c6f85;
+    --color-overlay2-50:#7c7f93;
+    --color-overlay1-50:#8c8fa1;
+    --color-overlay0-50:#9ca0b0;
+    --color-surface2-50:#acb0be;
+    --color-surface1-50:#bcc0cc;
+    --color-surface0-50:#ccd0da;
+    --color-base-50:#eff1f5;
+    --color-mantle-50:#e6e9ef;
+    --color-crust-50:#dce0e8;
+
+    /* Frappe */
+    --color-rosewater-100:#f2d5cf;
+    --color-flamingo-100:#eebebe;
+    --color-pink-100:#f4b8e4;
+    --color-mauve-100:#ca9ee6;
+    --color-red-100:#e78284;
+    --color-maroon-100:#ea999c;
+    --color-peach-100:#ef9f76;
+    --color-yellow-100:#e5c890;
+    --color-green-100:#a6d189;
+    --color-teal-100:#81c8be;
+    --color-sky-100:#99d1db;
+    --color-sapphire-100:#85c1dc;
+    --color-blue-100:#8caaee;
+    --color-lavender-100:#babbf1;
+    --color-text-100:#c6d0f5;
+    --color-subtext1-100:#b5bfe2;
+    --color-subtext0-100:#a5adce;
+    --color-overlay2-100:#949cbb;
+    --color-overlay1-100:#838ba7;
+    --color-overlay0-100:#737994;
+    --color-surface2-100:#626880;
+    --color-surface1-100:#51576d;
+    --color-surface0-100:#414559;
+    --color-base-100:#303446;
+    --color-mantle-100:#292c3c;
+    --color-crust-100:#232634;
+
+    /* Macchiato */
+    --color-rosewater-200:#f4dbd6;
+    --color-flamingo-200:#f0c6c6;
+    --color-pink-200:#f5bde6;
+    --color-mauve-200:#c6a0f6;
+    --color-red-200:#ed8796;
+    --color-maroon-200:#ee99a0;
+    --color-peach-200:#f5a97f;
+    --color-yellow-200:#eed49f;
+    --color-green-200:#a6da95;
+    --color-teal-200:#8bd5ca;
+    --color-sky-200:#91d7e3;
+    --color-sapphire-200:#7dc4e4;
+    --color-blue-200:#8aadf4;
+    --color-lavender-200:#b7bdf8;
+    --color-text-200:#cad3f5;
+    --color-subtext1-200:#b8c0e0;
+    --color-subtext0-200:#a5adcb;
+    --color-overlay2-200:#939ab7;
+    --color-overlay1-200:#8087a2;
+    --color-overlay0-200:#6e738d;
+    --color-surface2-200:#5b6078;
+    --color-surface1-200:#494d64;
+    --color-surface0-200:#363a4f;
+    --color-base-200:#24273a;
+    --color-mantle-200:#1e2030;
+    --color-crust-200:#181926;
+
+    /* Mocha */
+    --color-rosewater-300:#f5e0dc;
+    --color-flamingo-300:#f2cdcd;
+    --color-pink-300:#f5c2e7;
+    --color-mauve-300:#cba6f7;
+    --color-red-300:#f38ba8;
+    --color-maroon-300:#eba0ac;
+    --color-peach-300:#fab387;
+    --color-yellow-300:#f9e2af;
+    --color-green-300:#a6e3a1;
+    --color-teal-300:#94e2d5;
+    --color-sky-300:#89dceb;
+    --color-sapphire-300:#74c7ec;
+    --color-blue-300:#89b4fa;
+    --color-lavender-300:#b4befe;
+    --color-text-300:#cdd6f4;
+    --color-subtext1-300:#bac2de;
+    --color-subtext0-300:#a6adc8;
+    --color-overlay2-300:#9399b2;
+    --color-overlay1-300:#7f849c;
+    --color-overlay0-300:#6c7086;
+    --color-surface2-300:#585b70;
+    --color-surface1-300:#45475a;
+    --color-surface0-300:#313244;
+    --color-base-300:#1e1e2e;
+    --color-mantle-300:#181825;
+    --color-crust-300:#11111b;
 }
 
 @source "../node_modules/flowbite-svelte/dist";
