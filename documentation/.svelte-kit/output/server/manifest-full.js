@@ -10,18 +10,27 @@ return {
 	assets: new Set(["favicon.png"]),
 	mimeTypes: {".png":"image/png"},
 	_: {
-		client: {start:"_app/immutable/entry/start.C8_V4e5g.js",app:"_app/immutable/entry/app.BMuZViZp.js",imports:["_app/immutable/entry/start.C8_V4e5g.js","_app/immutable/chunks/DVAugNrE.js","_app/immutable/chunks/BMX_5P67.js","_app/immutable/chunks/D268svKc.js","_app/immutable/entry/app.BMuZViZp.js","_app/immutable/chunks/BMX_5P67.js","_app/immutable/chunks/fN37ziEy.js","_app/immutable/chunks/-ImmKWWL.js","_app/immutable/chunks/B_7Boklb.js","_app/immutable/chunks/D268svKc.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.yH-BfMLt.js",app:"_app/immutable/entry/app.C0lid-NF.js",imports:["_app/immutable/entry/start.yH-BfMLt.js","_app/immutable/chunks/Dex7m1R4.js","_app/immutable/chunks/K854fIq8.js","_app/immutable/chunks/DIeogL5L.js","_app/immutable/chunks/Qvh8RLHC.js","_app/immutable/entry/app.C0lid-NF.js","_app/immutable/chunks/K854fIq8.js","_app/immutable/chunks/DIeogL5L.js","_app/immutable/chunks/GGHT0-qi.js","_app/immutable/chunks/CPP4BZUb.js","_app/immutable/chunks/CWj6FrbW.js","_app/immutable/chunks/Bszv2B-T.js","_app/immutable/chunks/CzpCXS5V.js","_app/immutable/chunks/Qvh8RLHC.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
-			__memo(() => import('./nodes/2.js'))
+			__memo(() => import('./nodes/2.js')),
+			__memo(() => import('./nodes/3.js')),
+			__memo(() => import('./nodes/4.js'))
 		],
 		routes: [
 			{
 				id: "/",
 				pattern: /^\/$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 2 },
+				page: { layouts: [0,], errors: [1,], leaf: 3 },
+				endpoint: null
+			},
+			{
+				id: "/404",
+				pattern: /^\/404\/?$/,
+				params: [],
+				page: { layouts: [0,2,], errors: [1,,], leaf: 4 },
 				endpoint: null
 			}
 		],

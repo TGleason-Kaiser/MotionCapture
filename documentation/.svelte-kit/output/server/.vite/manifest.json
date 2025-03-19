@@ -75,5 +75,20 @@
     "imports": [
       "_index.js"
     ]
+  },
+  "src/routes/404/+layout.svelte": {
+    "file": "entries/pages/404/_layout.svelte.js",
+    "name": "entries/pages/404/_layout.svelte",
+    "src": "src/routes/404/+layout.svelte",
+    "isEntry": true
+  },
+  "src/routes/404/+page.svelte": {
+    "file": "entries/pages/404/_page.svelte.js",
+    "name": "entries/pages/404/_page.svelte",
+    "src": "src/routes/404/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
   }
 }
